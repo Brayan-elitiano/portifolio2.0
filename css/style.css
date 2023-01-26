@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+    
+  display: flex;
+  background-color: aliceblue;
+  color: blue;
+  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+justify-content: center;
+
+}
+#img {
+  display: flex;
+  
+  margin: 5px;
+  width: 200x;
+  height: 200px;
+  border-radius: 10px;
+}
+
+header{
+    display: flex;
+    text-align: center;
+
+}
+#texto{
+    margin-top: 90px;
+  
+}
