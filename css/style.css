@@ -7,6 +7,7 @@
 body {
     
   display: flex;
+  flex-direction: column;
   background-color: aliceblue;
   color: blue;
   background-color: aqua;
@@ -15,21 +16,43 @@ body {
 justify-content: center;
 
 }
+
 #img {
   display: flex;
-  
-  margin: 5px;
   width: 200x;
   height: 200px;
   border-radius: 10px;
 }
+#imgP{
+  height: 200px;
+}
+#texto{
+  height: 130px;
+ color: blue;
+
+}
+#texto:hover{
+  color: blueviolet;
+  cursor: pointer;
+
+}
 
 header{
+  position: relative;
+  bottom: 150px;
     display: flex;
     text-align: center;
+    height: 250px;
+    margin-left: 10px;
 
 }
 #texto{
     margin-top: 90px;
   
+}
+main{
+  text-align: center;
+}
+a{
+  text-decoration: none;
 }
