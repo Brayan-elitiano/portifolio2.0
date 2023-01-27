@@ -1,20 +1,58 @@
+/* Color Theme Swatches in Hex */
+.Digital-technology-and-science-background {
+  color: #030640;
+}
+.Digital-technology-and-science-background {
+  color: #050a26;
+}
+.Digital-technology-and-science-background {
+  color: #121940;
+}
+.Digital-technology-and-science-background {
+  color: #9295a6;
+}
+.Digital-technology-and-science-background {
+  color: #323c59;
+}
+
+/* Color Theme Swatches in RGBA */
+.Digital-technology-and-science-background1 {
+  color: rgba(3, 6, 63, 1);
+}
+.Digital-technology-and-science-background2 {
+  color: rgba(5, 10, 38, 1);
+}
+.Digital-technology-and-science-background3 {
+  color: rgba(17, 24, 63, 1);
+}
+.Digital-technology-and-science-background4 {
+  color: rgba(145, 148, 165, 1);
+}
+.Digital-technology-and-science-background5 {
+  color: rgba(49, 59, 89, 1);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  color: #ffffff;
 }
 body {
-    
   display: flex;
   flex-direction: column;
-  background-color: aliceblue;
-  color: blue;
-  background-color: aqua;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(25, 24, 143, 1) 57%,
+    rgba(12, 12, 237, 1) 100%
+  );
+  /* background: linear-gradient(95deg,#030640,#050a26,#121940); */
+
   width: 100vw;
   height: 100vh;
-justify-content: center;
-
+  justify-content: center;
 }
 
 #img {
@@ -23,36 +61,32 @@ justify-content: center;
   height: 200px;
   border-radius: 10px;
 }
-#imgP{
+#imgP {
   height: 200px;
 }
-#texto{
+#texto {
+  margin-left: 10px;
   height: 130px;
- color: blue;
-
-}
-#texto:hover{
-  color: blueviolet;
-  cursor: pointer;
-
+  color: blue;
 }
 
-header{
+header {
   position: relative;
   bottom: 150px;
-    display: flex;
-    text-align: center;
-    height: 250px;
-    margin-left: 10px;
-
+  display: flex;
+  text-align: center;
+  height: 250px;
+  margin-left: 10px;
 }
-#texto{
-    margin-top: 90px;
-  
+#texto {
+  margin-top: 90px;
 }
-main{
+main {
   text-align: center;
 }
-a{
+a {
   text-decoration: none;
+}
+li {
+  margin-top: 10px;
 }
